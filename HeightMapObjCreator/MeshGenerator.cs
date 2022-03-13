@@ -17,9 +17,9 @@ namespace HeightMapObjCreator
 
             int vertexIndex = 1;
 
-            for (int z = 0; z < image.Width; z++)
+            for (int z = 0; z < image.Height; z++)
             {
-                for (int x = 0; x < image.Height; x++)
+                for (int x = 0; x < image.Width; x++)
                 {
                     float posX = x;
                     float posZ = z;
