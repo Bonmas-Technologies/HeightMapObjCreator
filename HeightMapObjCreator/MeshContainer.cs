@@ -77,7 +77,7 @@ namespace HeightMapObjCreator
         
         public override string ToString()
         {
-            return $"v {X.ToString("n6")} {Y.ToString("n6")} {Z.ToString("n6")}";
+            return $"v {X} {Y} {Z}";
         }
     }
 }
